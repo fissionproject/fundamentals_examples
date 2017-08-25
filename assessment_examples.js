@@ -2,18 +2,14 @@
 function foo (arr, num) {
   var findLength = arr.length;
   if (findLength === num) {
-    console.log("True");
-  }
-  else {
-    console.log("False");
+    return true
   }
 }
-
 foo([0,1,4], 3);
 
 
 
-//iterate array function
+//array function
 function iterate(arr) {
 
 var arr = [1,2,3,4];
@@ -54,6 +50,7 @@ function outer(input) {
   return inner;
 }
 
+//9 * 10
 var firstResult = outer(9);
 firstResult(10);
 
